@@ -1,0 +1,13 @@
+.kwall-megamenu-wrapper {
+  position: relative;
+}
+.accessible-megamenu {
+  position: static;
+}
+.accessible-megamenu .accessible-megamenu-top-nav-item {
+  position: static;
+}
+.accessible-megamenu-panel-group {
+  display: inline-block;
+  vertical-align: top;
+}

@@ -1,0 +1,45 @@
+.campus-alert-wrapper.campus-banner-alert {
+  content: '';
+  display: block;
+  background: url(../../../all/modules/custom/campus_alerts/images/bkg-campus-alert-repeat.png) repeat scroll 0 0 transparent;
+  padding-top: 36px;
+}
+.campus-alert-wrapper.campus-alert-level-alert {
+  background-color: #CB5167;
+}
+.campus-alert-wrapper a:link {
+  color: #00468b;
+}
+.campus-alert-wrapper p,
+.campus-alert-wrapper div {
+  display: inline;
+}
+.campus-alert-wrapper .attention {
+  color: #C43424;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.campus-page-alert {
+  background: none #FFF;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10000;
+}
+.campus-page-alert .close {
+  cursor: pointer;
+  float: right;
+}
+.campus-page-alert-static {
+  position: static;
+}
+body.campus-alert-active .footer-wrapper,
+body.campus-alert-active .bottom-wrapper,
+body.campus-alert-active .title-wrapper {
+  display: none;
+}
+body.campus-alert-active #content > ul.tabs {
+  display: none;
+}
