@@ -1,0 +1,12 @@
+/*
+https://www.freecodecamp.org/news/https-medium-com-nakayama-shingo-creating-responsive-tables-with-pure-css-using-the-grid-layout-module-8e0ea8f03e83/
+*/
+
+.item-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    background-color: rgb(247, 245, 241) ;
+
+    list-style-type: none;
+}
