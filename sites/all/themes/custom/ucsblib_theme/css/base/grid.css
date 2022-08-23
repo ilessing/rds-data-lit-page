@@ -7,3 +7,7 @@
 
     list-style-type: none;
 }
+
+.item-container li div {
+    padding: .2em;
+}
